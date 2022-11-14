@@ -9,7 +9,7 @@
 ## 1. Installation
 
 ### 1.1 installing wdio and setup 
-1. Clone [repository]()
+1. Clone [repository](https://github.com/elopezcon/appium-webdriverio-demo.git)
 2. Install the project dependencies:
 ```shell
    npm install
