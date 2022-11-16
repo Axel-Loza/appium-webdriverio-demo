@@ -6,3 +6,4 @@ node_modules/
 local.log
 package-lock.json
 allure-results/
+*.txt

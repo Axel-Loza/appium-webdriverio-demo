@@ -26,6 +26,9 @@ exports.config = {
     ],
     // Patterns to exclude.
     exclude: [
+      'functional-testing/tests/login-tests.js'
+      'functional-testing/tests/review-tests.js'
+
         // 'path/to/excluded/files'
     ],
     //
@@ -51,11 +54,12 @@ exports.config = {
     // https://saucelabs.com/platform/platform-configurator
     //
     capabilities: [{
-        "platformName": "Android",
-        "appium:platformVersion": "12",
-        "appium:deviceName": "Pixel 5 API 31",
-        "appium:automationName": "UIAutomator2",
-        "appium:app": "/Users/eduardo.contreras/Desktop/MyDemoApp.apk"
+        Name: "Pixel 5 API 31",
+        platformName: "Android",
+        maxInstances: 1,
+        platformVersion: "12",
+        automationName: "UIAutomator2",
+        app: "/Users/hugo.loza/Documents/QA /Appium/webdriverio-appium/apk/Android-MyDemoAppRN.1.3.0.build-244.apk"
       }],
     //
     // ===================

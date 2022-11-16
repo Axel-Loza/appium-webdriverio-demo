@@ -5,7 +5,7 @@ class LoginScreen extends CommonsScreen{
         super();
         this.incorrectPasswordMessage = () => $('~Password-error-message');
         this.incorrectUsernameMessage = () => $('~Username-error-message');
-        this.lockedUserMEssage = () => $('~generic-error-message');
+        this.errorMessage = () => $('~generic-error-message');
         this.usernameInput = () => $('~Username input field');
         this.passwordInput = () => $('~Password input field');
         this.loginButton = () => $('~Login button');
